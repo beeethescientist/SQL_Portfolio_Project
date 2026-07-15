@@ -5,9 +5,9 @@
 
 ## Introduction
 
-This project explores the data analyst job market by analyzing job postings to identify trends in salaries, in-demand skills, and the technical skills associated with higher-         paying opportunities.
+This project explores the data analyst job market by analysing real-world job postings to identify salary trends, in-demand technical skills, and the technologies associated with high-paying opportunities.
 
-As I transition into the data analytics field, I wanted to better understand which skills are most valuable in the current job market and where I should focus my continued learning.
+Using PostgreSQL, I answered a series of business questions through SQL queries involving joins, Common Table Expressions (CTEs), aggregate functions, and window functions to extract meaningful insights from the data.
 
 ### The analysis focuses on five key questions:
 1. What are the highest-paying data analyst roles?
@@ -35,7 +35,7 @@ The dataset contains information about data-related job postings, including:
 The data was provided through the SQL course by Luke Barousse:
 [SQL Course](https://lukebarousse.com/sql)
 
-# Tools I used
+# 🛠️ Tools I used
 - **PostgreSQL:** Used to store, query, and analyze job posting data.
 - **SQL:** Used to clean, transform, join, and analyze relational data.
 - **Visual Studio Code:** Used as the development environment for writing SQL queries.
@@ -44,6 +44,20 @@ The data was provided through the SQL course by Luke Barousse:
 # The Analysis
 Each query for this project aimed at investigating specific aspects of the data analyst job market.
 Here's how i approached each question.
+
+## SQL Concepts Demonstrated
+
+- SELECT
+- WHERE
+- GROUP BY
+- ORDER BY
+- JOINS
+- LEFT JOIN
+- INNER JOIN
+- Common Table Expressions (CTEs)
+- Aggregate Functions
+- Window Functions
+- LIMIT
 
 ### 1. Top paying Data Analyst Jobs.
 To identify the highest-paying roles I filtered data analyst positions by average yearly salary and location, focusing on remote jobs. This query highlights the high paying opportunities in the field.
