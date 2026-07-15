@@ -204,7 +204,7 @@ Here is a breakdown of the results for the top paying skills
 - ***Software Development & Deployment proficiency:*** Knowledge in devlopment and deployemnt tools(GitLab, Kubernetes, Airflow) indicates a lucrative crossover between data analysis and engineering.
 - ***Cloud computing expertise:*** Familiarity with cloud and data engineering tools (Elasticsearch, Databricks,GCP) underscores the growing importance of cloud-based analytics environments, suggesting that cloud proficiency boosts earning potential in data analytics.
 
-![Top Paying Jobs](images/top_paying_skills.png)
+![Top Paying Jobs](images/top-paying-skills.png)
 
 *Table of the average salary for the top 10 paying skills for data analyst*
 
