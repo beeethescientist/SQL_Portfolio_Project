@@ -83,6 +83,8 @@ ORDER BY
     salary_year_avg DESC
 LIMIT 10;
 ```
+/img
+
 Here's the breakdown of the top data analyst jobs in 2023:
 - **Wide Salary Range:** Top 10 paying data analyst roles span from $184,000 to $650,000, indicating significant salary potential I the field.
 - **Diverse Employers:** Companies like SmartAsset, Meta, and AT&T are among those offeringhigh salaries, showing a broad interest accross different industries.
@@ -119,6 +121,7 @@ INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
 ORDER BY 
     salary_year_avg DESC
 ```
+/img
 
 Here's a breakdown of the  most demanded skills for the top 10 highest paying data analyst jobs in 2023:
 -  ***SQL*** is leading with abold count of 8.
@@ -146,6 +149,9 @@ ORDER BY
     demand_count DESC
 LIMIT 5;
 ```
+
+/img
+
 Here's a breakdown of the most demanded skills for data analysts in 2023.
 - ***SQL*** and ***Excel*** remain fundamental, emphasizing the need for strong foundational skills in data processing and manipulation. 
 - ***Programming*** and ***Visualization Tools*** like ***Python, Tableu*** and ***Power Bi*** are essential, pointing towards the increasing importance of tehcnical skills in data storytelling and decision support.
@@ -159,7 +165,6 @@ Here's a breakdown of the most demanded skills for data analysts in 2023.
 | Power BI | 2609         | 
 
 *Table of the demand for top 5 skills in data analyst job postings*
-
 
 ### 4. Skills based on Salary
 Exploring the average salaries associated with different skills revealed which skills are the highest paying.
@@ -181,13 +186,6 @@ ORDER BY
     avg_salary DESC
 LIMIT 25;
 ```
-
-Here is a breakdown of the results for the top paying skills
-- ***High demand for Big Data & ML skills:*** Top salaries commanded by analysts skilled in big data tech (PyShark,Couchbase), machine learning tools(DataRobot, Jupyter), and Python libraries(Pandas, NumPy), reflecting the industry's high valuation of data processing and predictive modeling capabilities.
-- ***Software Development & Deployment proficiency:*** Knowledge in devlopment and deployemnt tools(GitLab, Kubernetes, Airflow) indicates a lucrative crossover between data analysis and engineering.
-- ***Cloud computing expertise:*** Familiarity with cloud and data engineering tools (Elasticsearch, Databricks,GCP) underscores the growing importance of cloud-based analytics environments, suggesting that cloud proficiency boosts earning potential in data analytics.
-
-
 | Skills  | Average Salary ($)   |
 |---------|:--------------------:|
 | pyspark | 208,172              |
@@ -201,8 +199,20 @@ Here is a breakdown of the results for the top paying skills
 | pandas  | 151,821              |
 |elasticsearch| 145,000          |
 
+Here is a breakdown of the results for the top paying skills
+- ***High demand for Big Data & ML skills:*** Top salaries commanded by analysts skilled in big data tech (PyShark,Couchbase), machine learning tools(DataRobot, Jupyter), and Python libraries(Pandas, NumPy), reflecting the industry's high valuation of data processing and predictive modeling capabilities.
+- ***Software Development & Deployment proficiency:*** Knowledge in devlopment and deployemnt tools(GitLab, Kubernetes, Airflow) indicates a lucrative crossover between data analysis and engineering.
+- ***Cloud computing expertise:*** Familiarity with cloud and data engineering tools (Elasticsearch, Databricks,GCP) underscores the growing importance of cloud-based analytics environments, suggesting that cloud proficiency boosts earning potential in data analytics.
+
+/img
+
+
 *Table of the average salary for the top 10 paying skills for data analyst*
 
+#### This visualization reveals that the highest-paying skills are not necessarily the most in-demand:
+-PySpark commands the highest average salary at over $208K, reflecting demand for large-scale data processing expertise.
+-Tools such as DataRobot, GitLab, and Jupyter are associated with premium analytics and machine learning workflows.
+-Several infrastructure and engineering technologies (e.g., Bitbucket, Elasticsearch) appear among the top-paying skills, suggesting that data analysts with data engineering and DevOps capabilities can earn significantly higher salaries.
 
 ### 5. Most optimal skills to learn
 
@@ -268,7 +278,6 @@ LIMIT 25;
 |233       | jira      | 20           | 104,918            |
 
 *Table of the most optimal skills for data analyst sorted by salary*
-
 
 Here's a breakdown of the most optimal skills for Data Analysts in 2023:
 - **High-Demand Programming Languages:** Python and R stand out for their high demand, with demand counts of 236 and 148 respectively. Despite their high demand, their average salaries are around $101,397 for Python and $100,499 for R, indicating that proficiency in these languages is highly valued but also widely.
